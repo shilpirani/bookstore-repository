@@ -54,11 +54,6 @@ function Home(props: Props) {
     
     const handleClickBook =  (product : IProduct) => {
         history.push(`/productDetails/${product.id}`);
-    //    history.push({
-    //     pathname: '/productDetails',
-    //     search: `?id=${product.id}`,
-    //     state: { product: product }
-    //   })
     }
     
 
@@ -77,10 +72,6 @@ function Home(props: Props) {
                         type="button"
                         onClick={() => buyProduct(product)}
                     >
-                        {/* <div>
-                            <MdAddShoppingCart size={16} color="#fff" />
-                            {props.amount[product.id] || 0}
-                        </div> */}
                         <span>Buy Now</span>
                     </button>
                 </li>
