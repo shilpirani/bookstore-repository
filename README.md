@@ -2,6 +2,10 @@
 
 React project that provide a UI interface with redux
 
+## To run application
+
+Run json server using command $ json-server server.json --port 3001
+Run Application using command $ npm start
 
 ## Technologies
 
